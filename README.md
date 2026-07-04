@@ -1,6 +1,6 @@
 # 📊 Procurement Executive Dashboard
 
-![Procurement Executive Dashboard](screenshots/dashboard_overview.png)
+![Dashboard Overview](screenshots/dashboard_overview.png)
 
 > **An end-to-end Business Intelligence project demonstrating procurement analytics using Python, SQL Server, SQL Views, DAX, and Power BI.**
 
@@ -8,28 +8,28 @@
 
 # 🚀 Project Overview
 
-The Procurement Executive Dashboard is a portfolio project designed to simulate a real-world procurement analytics environment.
+The Procurement Executive Dashboard is an end-to-end Business Intelligence project that simulates a real-world procurement analytics environment.
 
-The project demonstrates the complete Business Intelligence workflow—from synthetic data generation to executive-level reporting—using modern data analytics technologies.
+The project demonstrates the complete analytics workflow—from synthetic data generation in Python to SQL Server database design and interactive Power BI dashboards.
 
-The dashboards help procurement managers and executives monitor procurement spending, supplier performance, delivery efficiency, and sustainability (ESG) metrics to support strategic business decisions.
+The dashboards enable procurement managers and executives to monitor procurement spending, supplier performance, delivery reliability, and ESG (Environmental, Social, and Governance) metrics to support strategic business decisions.
 
 ---
 
 # 🎯 Business Problem
 
-Procurement departments manage hundreds of suppliers, thousands of purchase orders, and significant procurement spending.
+Modern procurement departments manage hundreds of suppliers and thousands of purchase orders.
 
-Without a centralized reporting solution, it is difficult to:
+Without centralized reporting, it becomes difficult to:
 
 - Monitor procurement spending
 - Evaluate supplier performance
-- Track delivery reliability
+- Identify delivery issues
 - Measure ESG performance
-- Identify high-risk suppliers
+- Detect high-risk suppliers
 - Support executive decision-making
 
-This project addresses these challenges by transforming raw procurement data into interactive Power BI dashboards.
+This project addresses these challenges through interactive dashboards built in Power BI.
 
 ---
 
@@ -37,13 +37,14 @@ This project addresses these challenges by transforming raw procurement data int
 
 | Technology | Purpose |
 |------------|---------|
-| Python | Synthetic procurement data generation |
-| Pandas | Data preparation |
+| Python | Synthetic Data Generation |
+| Pandas | Data Preparation |
 | SQL Server | Database |
-| SQL Views | Reporting layer |
-| Power BI | Dashboard development |
-| DAX | KPI calculations |
-| GitHub | Version control |
+| SQL Views | Reporting Layer |
+| Power BI | Dashboard Development |
+| DAX | KPI Calculations |
+| Git | Version Control |
+| GitHub | Project Repository |
 
 ---
 
@@ -56,15 +57,18 @@ Procurement-Executive-Dashboard
 │   ├── raw
 │   └── processed
 │
-├── sql
-│
-├── python
+├── documentation
 │
 ├── powerbi
+│   └── Procurement_Executive_Dashboard.pbix
+│
+├── python
+│   └── Procurement_Data_Generation.ipynb
 │
 ├── screenshots
+│   └── dashboard_overview.png
 │
-├── documentation
+├── sql
 │
 └── README.md
 ```
@@ -86,7 +90,7 @@ SQL Server
         │
         ▼
 SQL Views
-(Business Layer)
+(Business Reporting Layer)
         │
         ▼
 Power BI
@@ -100,7 +104,7 @@ Executive Decision Making
 
 # 🗄 Database
 
-The project includes the following datasets:
+The project includes six procurement datasets:
 
 - Countries
 - Suppliers
@@ -109,7 +113,7 @@ The project includes the following datasets:
 - Deliveries
 - Sustainability
 
-Business reporting is built on SQL Views:
+Business reporting is built on SQL Views including:
 
 - vw_CountryProcurement
 - vw_SupplierPerformance
@@ -120,11 +124,9 @@ Business reporting is built on SQL Views:
 
 # 📊 Dashboard Pages
 
-## 📈 Executive Overview
+## Executive Overview
 
-![Executive Overview](screenshots/executive_overview.png)
-
-The Executive Overview dashboard provides a high-level summary of procurement performance.
+Provides executives with an overall view of procurement performance.
 
 ### KPIs
 
@@ -135,10 +137,10 @@ The Executive Overview dashboard provides a high-level summary of procurement pe
 - Spend at Risk
 - High-Risk Suppliers
 
-Key analyses include:
+Additional analyses include:
 
 - Procurement Spend Trend
-- Spend by Country
+- Country Analysis
 - Supplier Risk Matrix
 - Top Suppliers by Spend
 - Worst Suppliers by Late Delivery
@@ -146,43 +148,34 @@ Key analyses include:
 
 ---
 
-## 🤝 Supplier Performance
+## Supplier Performance
 
-![Supplier Performance](screenshots/supplier_performance.png)
+Provides operational supplier analytics including:
 
-This dashboard focuses on supplier evaluation.
-
-Features include:
-
-- Supplier Scorecard
+- Supplier Scorecards
 - Procurement Ranking
 - Delivery Performance
-- Supplier Health Score
+- Health Score
 - Pareto Analysis
 - Monthly Delivery Trends
 
 ---
 
-## 🌱 ESG & Sustainability Analytics
+## ESG & Sustainability Analytics
 
-![ESG Dashboard](screenshots/esg_dashboard.png)
-
-This dashboard supports sustainability monitoring.
-
-Included analyses:
+Supports sustainability monitoring through:
 
 - ESG Score Distribution
-- Sustainability Risk Treemap
-- CO₂ Emissions by Country
-- CO₂ Emissions by Industry
-- Top ESG Suppliers
-- ESG Risk Matrix
+- Sustainability Risk Analysis
+- CO₂ Emissions
+- ESG Performance
+- High-Risk Supplier Monitoring
 
 ---
 
 # 📈 Key Performance Indicators
 
-The dashboard tracks several business KPIs:
+The dashboard monitors:
 
 - Total Procurement Spend
 - Total Suppliers
@@ -197,48 +190,52 @@ The dashboard tracks several business KPIs:
 
 # 💡 Business Insights
 
-The dashboards enable procurement managers to:
+This dashboard enables decision-makers to:
 
-- Identify high-performing suppliers
-- Detect delivery issues
+- Identify top-performing suppliers
+- Detect suppliers with delivery problems
 - Monitor procurement spending
-- Compare supplier ESG performance
-- Reduce procurement risks
-- Support strategic sourcing decisions
+- Evaluate supplier sustainability performance
+- Prioritize supplier risk mitigation
+- Improve procurement strategy
 
 ---
 
 # 📸 Dashboard Preview
 
-| Dashboard | Description |
-|-----------|-------------|
-| Executive Overview | Executive KPIs and procurement insights |
-| Supplier Performance | Supplier evaluation and operational analysis |
-| ESG & Sustainability | Sustainability and environmental performance |
+The Power BI solution consists of three interactive dashboards:
+
+- Executive Overview
+- Supplier Performance
+- ESG & Sustainability Analytics
+
+The dashboard preview is shown below.
+
+![Dashboard Preview](screenshots/dashboard_overview.png)
 
 ---
 
 # 🚀 Future Improvements
 
-Future enhancements may include:
+Potential future enhancements include:
 
-- Real ERP procurement data
-- Predictive supplier risk modeling
-- Machine Learning for delivery prediction
-- Automated Power BI refresh
+- Integration with ERP procurement systems
+- Machine Learning models for supplier risk prediction
+- Automated Power BI Service refresh
 - Row-Level Security (RLS)
 - Procurement forecasting
-- Azure SQL integration
+- Azure SQL Database integration
 
 ---
 
-# ▶️ How to Run the Project
+# ▶️ How to Run
 
 1. Run the Python notebook to generate procurement datasets.
 2. Import CSV files into SQL Server.
-3. Execute the SQL scripts to create tables and views.
-4. Open the Power BI (.pbix) file.
-5. Refresh the data model.
+3. Execute the SQL scripts.
+4. Create SQL Views.
+5. Open the Power BI (.pbix) report.
+6. Refresh the data model.
 
 ---
 
@@ -248,15 +245,18 @@ Future enhancements may include:
 
 Business Analyst | Data Analyst | Power BI Developer
 
-GitHub: https://github.com/Khayal94
+**GitHub**
 
-LinkedIn:
-(Add your LinkedIn profile)
+https://github.com/Khayal94
+
+**LinkedIn**
+
+(Add your LinkedIn profile URL)
 
 ---
 
 # ⭐ Project Status
 
-**Completed**
+✅ Completed
 
-This project was developed as part of my data analytics portfolio to demonstrate end-to-end Business Intelligence development using Python, SQL Server, DAX, and Power BI.
+This project was developed as part of my Business Intelligence and Data Analytics portfolio to demonstrate end-to-end analytics development using Python, SQL Server, SQL Views, DAX, and Power BI.
