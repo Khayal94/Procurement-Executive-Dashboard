@@ -1,0 +1,501 @@
+SupplierID,SupplierName,CountryID,Industry,ESGScore,SupplierStatus,SupplierRating
+1,GreenTech Components 1,7,Manufacturing,77,Active,B
+2,Nordic Supply 2,4,Manufacturing,91,Under Review,A
+3,Smart Logistics 3,8,Manufacturing,84,Active,B
+4,Industrial Solutions 4,5,Electronics,87,Active,A
+5,Industrial Solutions 5,7,Manufacturing,56,Under Review,C
+6,EuroParts 6,10,Raw Materials,88,Active,A
+7,GreenTech Components 7,3,Maintenance,80,Active,B
+8,SteelPro 8,7,Maintenance,92,Under Review,A
+9,GreenTech Components 9,8,Manufacturing,48,Active,D
+10,Energy Systems 10,5,Electronics,49,Active,D
+11,Precision Tools 11,4,Electronics,81,Active,B
+12,Nordic Supply 12,8,Raw Materials,52,Active,D
+13,Nordic Supply 13,8,Manufacturing,86,Active,A
+14,GreenTech Components 14,3,Maintenance,93,Active,A
+15,Industrial Solutions 15,6,Electronics,72,Under Review,B
+16,Industrial Solutions 16,5,Manufacturing,75,Under Review,B
+17,SteelPro 17,2,Electronics,53,Active,D
+18,Energy Systems 18,8,Electronics,98,Under Review,A
+19,Nordic Supply 19,6,Maintenance,95,Under Review,A
+20,SteelPro 20,2,Logistics,73,Active,B
+21,Industrial Solutions 21,5,Raw Materials,58,Active,C
+22,SteelPro 22,1,Raw Materials,84,Active,B
+23,Precision Tools 23,10,Maintenance,85,Active,A
+24,Industrial Solutions 24,6,Electronics,66,Active,C
+25,Global Maintenance 25,9,Manufacturing,55,Active,C
+26,Energy Systems 26,1,Electronics,67,Active,C
+27,Smart Logistics 27,10,Maintenance,45,Active,D
+28,Nordic Supply 28,3,Raw Materials,90,Active,A
+29,EuroParts 29,7,Electronics,81,Active,B
+30,Precision Tools 30,4,Raw Materials,65,Active,C
+31,EcoMaterials 31,9,Manufacturing,70,Active,B
+32,Smart Logistics 32,3,Raw Materials,90,Active,A
+33,EuroParts 33,5,Raw Materials,80,Active,B
+34,Industrial Solutions 34,3,Logistics,98,Active,A
+35,EcoMaterials 35,7,Logistics,67,Active,C
+36,GreenTech Components 36,5,Logistics,45,Under Review,D
+37,GreenTech Components 37,9,Raw Materials,98,Active,A
+38,Precision Tools 38,7,Maintenance,99,Active,A
+39,GreenTech Components 39,2,Raw Materials,95,Active,A
+40,EcoMaterials 40,4,Maintenance,84,Active,B
+41,EcoMaterials 41,9,Maintenance,59,Active,C
+42,Energy Systems 42,2,Logistics,65,Active,C
+43,Smart Logistics 43,10,Electronics,91,Active,A
+44,Nordic Supply 44,9,Manufacturing,53,Active,D
+45,Global Maintenance 45,10,Logistics,97,Active,A
+46,SteelPro 46,5,Logistics,53,Under Review,D
+47,GreenTech Components 47,2,Electronics,54,Active,D
+48,Precision Tools 48,4,Manufacturing,96,Active,A
+49,GreenTech Components 49,7,Raw Materials,97,Active,A
+50,SteelPro 50,8,Raw Materials,70,Active,B
+51,Smart Logistics 51,3,Logistics,85,Active,A
+52,Energy Systems 52,1,Manufacturing,79,Active,B
+53,EcoMaterials 53,4,Logistics,96,Active,A
+54,Energy Systems 54,2,Maintenance,69,Active,C
+55,Industrial Solutions 55,8,Logistics,70,Active,B
+56,GreenTech Components 56,4,Logistics,55,Active,C
+57,Nordic Supply 57,2,Raw Materials,82,Under Review,B
+58,Industrial Solutions 58,6,Raw Materials,46,Active,D
+59,Smart Logistics 59,6,Raw Materials,51,Under Review,D
+60,GreenTech Components 60,10,Maintenance,62,Active,C
+61,Industrial Solutions 61,4,Raw Materials,71,Active,B
+62,GreenTech Components 62,6,Manufacturing,78,Active,B
+63,Precision Tools 63,2,Electronics,71,Under Review,B
+64,Smart Logistics 64,10,Manufacturing,61,Active,C
+65,Global Maintenance 65,2,Manufacturing,87,Active,A
+66,EcoMaterials 66,10,Raw Materials,88,Active,A
+67,EuroParts 67,4,Electronics,95,Active,A
+68,EcoMaterials 68,8,Electronics,98,Under Review,A
+69,EcoMaterials 69,7,Electronics,68,Active,C
+70,Industrial Solutions 70,9,Maintenance,69,Active,C
+71,Smart Logistics 71,8,Raw Materials,51,Active,D
+72,GreenTech Components 72,5,Electronics,96,Active,A
+73,Energy Systems 73,2,Maintenance,50,Active,D
+74,EuroParts 74,5,Logistics,97,Under Review,A
+75,SteelPro 75,8,Logistics,68,Active,C
+76,Industrial Solutions 76,10,Maintenance,77,Active,B
+77,EuroParts 77,9,Maintenance,93,Under Review,A
+78,Global Maintenance 78,9,Raw Materials,73,Active,B
+79,Precision Tools 79,1,Raw Materials,87,Active,A
+80,Smart Logistics 80,9,Logistics,66,Active,C
+81,SteelPro 81,7,Electronics,70,Active,B
+82,Industrial Solutions 82,9,Logistics,72,Active,B
+83,EcoMaterials 83,8,Electronics,94,Under Review,A
+84,Nordic Supply 84,1,Electronics,65,Active,C
+85,Industrial Solutions 85,8,Raw Materials,93,Active,A
+86,Nordic Supply 86,8,Manufacturing,51,Active,D
+87,EcoMaterials 87,3,Manufacturing,61,Under Review,C
+88,Precision Tools 88,1,Maintenance,64,Active,C
+89,Smart Logistics 89,8,Raw Materials,85,Active,A
+90,GreenTech Components 90,3,Electronics,93,Active,A
+91,Industrial Solutions 91,3,Manufacturing,64,Active,C
+92,Energy Systems 92,1,Electronics,98,Active,A
+93,EcoMaterials 93,5,Manufacturing,66,Under Review,C
+94,Industrial Solutions 94,10,Manufacturing,72,Under Review,B
+95,Global Maintenance 95,7,Manufacturing,84,Active,B
+96,Precision Tools 96,10,Raw Materials,93,Active,A
+97,Global Maintenance 97,9,Logistics,51,Under Review,D
+98,EuroParts 98,7,Electronics,45,Active,D
+99,Smart Logistics 99,9,Raw Materials,76,Active,B
+100,EuroParts 100,8,Raw Materials,57,Under Review,C
+101,Industrial Solutions 101,2,Raw Materials,74,Active,B
+102,SteelPro 102,1,Raw Materials,67,Active,C
+103,SteelPro 103,7,Raw Materials,95,Active,A
+104,Smart Logistics 104,7,Maintenance,63,Active,C
+105,Energy Systems 105,8,Electronics,76,Under Review,B
+106,Precision Tools 106,5,Raw Materials,74,Under Review,B
+107,Energy Systems 107,3,Electronics,73,Active,B
+108,Precision Tools 108,8,Maintenance,93,Under Review,A
+109,EcoMaterials 109,6,Maintenance,89,Active,A
+110,Industrial Solutions 110,3,Electronics,73,Active,B
+111,EuroParts 111,1,Manufacturing,74,Active,B
+112,SteelPro 112,3,Logistics,60,Active,C
+113,Global Maintenance 113,5,Manufacturing,84,Under Review,B
+114,GreenTech Components 114,3,Manufacturing,63,Active,C
+115,Nordic Supply 115,1,Manufacturing,62,Under Review,C
+116,GreenTech Components 116,5,Raw Materials,45,Active,D
+117,EuroParts 117,10,Maintenance,58,Active,C
+118,EuroParts 118,7,Manufacturing,95,Active,A
+119,Precision Tools 119,7,Maintenance,91,Active,A
+120,Energy Systems 120,9,Electronics,94,Active,A
+121,GreenTech Components 121,10,Logistics,46,Under Review,D
+122,Precision Tools 122,10,Electronics,98,Under Review,A
+123,Precision Tools 123,3,Electronics,72,Active,B
+124,Energy Systems 124,7,Raw Materials,93,Under Review,A
+125,Global Maintenance 125,1,Logistics,94,Active,A
+126,SteelPro 126,4,Electronics,74,Active,B
+127,Smart Logistics 127,4,Electronics,82,Active,B
+128,SteelPro 128,5,Logistics,95,Active,A
+129,Nordic Supply 129,7,Logistics,48,Active,D
+130,GreenTech Components 130,7,Electronics,45,Under Review,D
+131,SteelPro 131,4,Logistics,52,Active,D
+132,Smart Logistics 132,7,Electronics,73,Under Review,B
+133,EcoMaterials 133,3,Electronics,99,Under Review,A
+134,GreenTech Components 134,6,Raw Materials,83,Under Review,B
+135,Smart Logistics 135,2,Manufacturing,47,Active,D
+136,Precision Tools 136,10,Electronics,76,Active,B
+137,EuroParts 137,9,Maintenance,54,Active,D
+138,Global Maintenance 138,5,Manufacturing,54,Under Review,D
+139,Nordic Supply 139,6,Manufacturing,63,Active,C
+140,Smart Logistics 140,4,Manufacturing,90,Active,A
+141,SteelPro 141,10,Raw Materials,78,Active,B
+142,EuroParts 142,7,Electronics,77,Active,B
+143,SteelPro 143,9,Raw Materials,67,Active,C
+144,GreenTech Components 144,7,Electronics,99,Active,A
+145,Smart Logistics 145,1,Raw Materials,72,Active,B
+146,SteelPro 146,1,Raw Materials,76,Under Review,B
+147,Energy Systems 147,9,Maintenance,94,Active,A
+148,Industrial Solutions 148,9,Raw Materials,51,Active,D
+149,EuroParts 149,4,Logistics,73,Active,B
+150,EcoMaterials 150,9,Maintenance,52,Under Review,D
+151,EuroParts 151,3,Raw Materials,45,Active,D
+152,SteelPro 152,7,Manufacturing,99,Active,A
+153,SteelPro 153,6,Logistics,47,Active,D
+154,Nordic Supply 154,8,Logistics,68,Active,C
+155,Energy Systems 155,9,Logistics,67,Active,C
+156,EcoMaterials 156,5,Maintenance,52,Active,D
+157,Global Maintenance 157,1,Raw Materials,98,Active,A
+158,Nordic Supply 158,3,Raw Materials,91,Active,A
+159,GreenTech Components 159,10,Manufacturing,81,Active,B
+160,EcoMaterials 160,8,Manufacturing,47,Active,D
+161,Smart Logistics 161,6,Logistics,95,Active,A
+162,Industrial Solutions 162,8,Manufacturing,77,Under Review,B
+163,Nordic Supply 163,9,Maintenance,72,Active,B
+164,Industrial Solutions 164,4,Raw Materials,91,Active,A
+165,Energy Systems 165,1,Logistics,52,Active,D
+166,GreenTech Components 166,1,Manufacturing,78,Active,B
+167,GreenTech Components 167,10,Maintenance,79,Active,B
+168,Global Maintenance 168,4,Maintenance,76,Active,B
+169,GreenTech Components 169,7,Manufacturing,68,Under Review,C
+170,SteelPro 170,2,Raw Materials,58,Active,C
+171,EuroParts 171,3,Manufacturing,76,Active,B
+172,EuroParts 172,1,Logistics,90,Active,A
+173,Global Maintenance 173,5,Manufacturing,87,Active,A
+174,SteelPro 174,1,Maintenance,60,Under Review,C
+175,EuroParts 175,8,Manufacturing,48,Active,D
+176,Smart Logistics 176,1,Raw Materials,96,Active,A
+177,SteelPro 177,1,Electronics,81,Under Review,B
+178,Energy Systems 178,2,Manufacturing,98,Active,A
+179,Precision Tools 179,2,Raw Materials,65,Active,C
+180,Industrial Solutions 180,6,Raw Materials,58,Active,C
+181,SteelPro 181,7,Maintenance,75,Active,B
+182,Industrial Solutions 182,5,Raw Materials,99,Active,A
+183,Smart Logistics 183,1,Raw Materials,92,Active,A
+184,Precision Tools 184,1,Raw Materials,62,Under Review,C
+185,EcoMaterials 185,3,Raw Materials,51,Active,D
+186,Global Maintenance 186,2,Logistics,54,Active,D
+187,SteelPro 187,5,Logistics,51,Under Review,D
+188,Global Maintenance 188,10,Maintenance,77,Under Review,B
+189,GreenTech Components 189,6,Manufacturing,67,Under Review,C
+190,Industrial Solutions 190,7,Raw Materials,65,Active,C
+191,Industrial Solutions 191,4,Manufacturing,63,Active,C
+192,GreenTech Components 192,7,Manufacturing,92,Under Review,A
+193,EcoMaterials 193,8,Maintenance,63,Active,C
+194,Nordic Supply 194,1,Raw Materials,80,Active,B
+195,Energy Systems 195,6,Raw Materials,73,Active,B
+196,SteelPro 196,8,Electronics,62,Active,C
+197,Industrial Solutions 197,5,Manufacturing,46,Active,D
+198,Energy Systems 198,4,Manufacturing,45,Active,D
+199,Industrial Solutions 199,2,Logistics,91,Under Review,A
+200,Nordic Supply 200,6,Electronics,49,Active,D
+201,GreenTech Components 201,6,Logistics,64,Active,C
+202,Nordic Supply 202,1,Logistics,55,Under Review,C
+203,Industrial Solutions 203,9,Logistics,86,Under Review,A
+204,GreenTech Components 204,6,Maintenance,46,Active,D
+205,Nordic Supply 205,3,Maintenance,47,Active,D
+206,EcoMaterials 206,4,Logistics,67,Active,C
+207,GreenTech Components 207,4,Electronics,99,Active,A
+208,SteelPro 208,3,Manufacturing,56,Active,C
+209,Industrial Solutions 209,10,Electronics,64,Under Review,C
+210,Smart Logistics 210,3,Raw Materials,49,Under Review,D
+211,Global Maintenance 211,3,Maintenance,81,Under Review,B
+212,Industrial Solutions 212,4,Manufacturing,82,Under Review,B
+213,SteelPro 213,7,Manufacturing,74,Active,B
+214,EuroParts 214,4,Raw Materials,53,Under Review,D
+215,Energy Systems 215,9,Raw Materials,78,Active,B
+216,Energy Systems 216,1,Logistics,97,Under Review,A
+217,Global Maintenance 217,8,Maintenance,88,Active,A
+218,Industrial Solutions 218,7,Maintenance,79,Under Review,B
+219,Global Maintenance 219,2,Electronics,96,Active,A
+220,Precision Tools 220,8,Logistics,66,Active,C
+221,Industrial Solutions 221,1,Logistics,88,Active,A
+222,GreenTech Components 222,9,Logistics,68,Active,C
+223,GreenTech Components 223,9,Logistics,61,Active,C
+224,Precision Tools 224,2,Maintenance,54,Active,D
+225,EcoMaterials 225,7,Maintenance,74,Active,B
+226,Precision Tools 226,10,Logistics,90,Under Review,A
+227,Precision Tools 227,3,Electronics,67,Active,C
+228,Global Maintenance 228,7,Manufacturing,76,Active,B
+229,Nordic Supply 229,10,Manufacturing,61,Active,C
+230,GreenTech Components 230,9,Electronics,94,Active,A
+231,Nordic Supply 231,4,Logistics,95,Under Review,A
+232,Precision Tools 232,1,Maintenance,61,Active,C
+233,EcoMaterials 233,2,Manufacturing,58,Active,C
+234,GreenTech Components 234,1,Raw Materials,53,Under Review,D
+235,Industrial Solutions 235,5,Raw Materials,84,Under Review,B
+236,Industrial Solutions 236,5,Electronics,46,Active,D
+237,Industrial Solutions 237,7,Logistics,89,Active,A
+238,SteelPro 238,9,Manufacturing,69,Under Review,C
+239,Global Maintenance 239,9,Logistics,83,Active,B
+240,EuroParts 240,3,Manufacturing,53,Under Review,D
+241,Precision Tools 241,3,Electronics,98,Active,A
+242,EuroParts 242,3,Electronics,66,Active,C
+243,Smart Logistics 243,4,Raw Materials,87,Active,A
+244,Global Maintenance 244,8,Logistics,90,Active,A
+245,Industrial Solutions 245,6,Raw Materials,48,Active,D
+246,GreenTech Components 246,8,Logistics,70,Active,B
+247,Global Maintenance 247,1,Raw Materials,73,Active,B
+248,SteelPro 248,8,Maintenance,89,Under Review,A
+249,GreenTech Components 249,4,Maintenance,78,Active,B
+250,Nordic Supply 250,1,Maintenance,67,Active,C
+251,SteelPro 251,8,Maintenance,81,Active,B
+252,Nordic Supply 252,4,Manufacturing,55,Active,C
+253,GreenTech Components 253,6,Maintenance,50,Active,D
+254,Industrial Solutions 254,8,Electronics,62,Active,C
+255,EuroParts 255,4,Electronics,65,Active,C
+256,Precision Tools 256,3,Manufacturing,86,Active,A
+257,Global Maintenance 257,9,Maintenance,80,Active,B
+258,Global Maintenance 258,3,Maintenance,85,Under Review,A
+259,Industrial Solutions 259,9,Maintenance,82,Active,B
+260,Precision Tools 260,2,Raw Materials,78,Active,B
+261,Nordic Supply 261,2,Logistics,61,Active,C
+262,EuroParts 262,2,Raw Materials,81,Active,B
+263,Precision Tools 263,6,Logistics,69,Active,C
+264,Nordic Supply 264,3,Maintenance,82,Active,B
+265,Precision Tools 265,9,Maintenance,56,Active,C
+266,Smart Logistics 266,4,Raw Materials,67,Active,C
+267,Global Maintenance 267,1,Raw Materials,97,Active,A
+268,Smart Logistics 268,4,Logistics,86,Active,A
+269,Precision Tools 269,1,Electronics,66,Under Review,C
+270,SteelPro 270,5,Logistics,65,Under Review,C
+271,Global Maintenance 271,4,Raw Materials,71,Active,B
+272,EuroParts 272,8,Raw Materials,75,Active,B
+273,Industrial Solutions 273,8,Manufacturing,50,Active,D
+274,Smart Logistics 274,7,Raw Materials,71,Under Review,B
+275,Industrial Solutions 275,3,Manufacturing,84,Active,B
+276,Nordic Supply 276,1,Electronics,78,Active,B
+277,Energy Systems 277,1,Logistics,56,Active,C
+278,SteelPro 278,3,Logistics,89,Active,A
+279,Nordic Supply 279,6,Manufacturing,97,Active,A
+280,EcoMaterials 280,7,Logistics,51,Active,D
+281,Nordic Supply 281,6,Raw Materials,54,Under Review,D
+282,Nordic Supply 282,6,Maintenance,89,Under Review,A
+283,Energy Systems 283,6,Manufacturing,61,Under Review,C
+284,Global Maintenance 284,3,Logistics,70,Active,B
+285,SteelPro 285,6,Manufacturing,65,Active,C
+286,SteelPro 286,8,Manufacturing,72,Active,B
+287,EuroParts 287,2,Maintenance,90,Under Review,A
+288,Nordic Supply 288,5,Raw Materials,46,Active,D
+289,SteelPro 289,1,Manufacturing,98,Active,A
+290,GreenTech Components 290,1,Logistics,87,Under Review,A
+291,EuroParts 291,5,Electronics,45,Active,D
+292,GreenTech Components 292,3,Manufacturing,95,Active,A
+293,Energy Systems 293,4,Manufacturing,97,Active,A
+294,GreenTech Components 294,3,Maintenance,80,Active,B
+295,Industrial Solutions 295,1,Raw Materials,95,Active,A
+296,Precision Tools 296,1,Electronics,70,Active,B
+297,GreenTech Components 297,5,Logistics,73,Active,B
+298,Energy Systems 298,6,Electronics,65,Active,C
+299,Industrial Solutions 299,3,Logistics,55,Under Review,C
+300,Energy Systems 300,9,Raw Materials,84,Active,B
+301,Energy Systems 301,5,Logistics,55,Active,C
+302,Nordic Supply 302,8,Maintenance,80,Active,B
+303,Energy Systems 303,1,Maintenance,93,Active,A
+304,GreenTech Components 304,5,Maintenance,83,Active,B
+305,Precision Tools 305,3,Maintenance,84,Under Review,B
+306,Energy Systems 306,1,Electronics,79,Active,B
+307,Energy Systems 307,4,Raw Materials,98,Active,A
+308,SteelPro 308,5,Logistics,78,Under Review,B
+309,EcoMaterials 309,7,Logistics,99,Under Review,A
+310,Smart Logistics 310,1,Maintenance,91,Active,A
+311,Industrial Solutions 311,3,Maintenance,68,Active,C
+312,EcoMaterials 312,2,Manufacturing,98,Under Review,A
+313,Industrial Solutions 313,9,Raw Materials,66,Under Review,C
+314,Smart Logistics 314,10,Electronics,49,Active,D
+315,Precision Tools 315,6,Logistics,77,Under Review,B
+316,EuroParts 316,10,Manufacturing,80,Under Review,B
+317,Smart Logistics 317,3,Manufacturing,91,Active,A
+318,Global Maintenance 318,8,Logistics,64,Active,C
+319,EcoMaterials 319,8,Electronics,63,Active,C
+320,GreenTech Components 320,2,Manufacturing,79,Active,B
+321,Nordic Supply 321,6,Manufacturing,96,Active,A
+322,Global Maintenance 322,7,Raw Materials,87,Under Review,A
+323,Energy Systems 323,2,Electronics,61,Active,C
+324,Energy Systems 324,10,Manufacturing,89,Active,A
+325,GreenTech Components 325,2,Electronics,87,Active,A
+326,GreenTech Components 326,10,Logistics,78,Active,B
+327,SteelPro 327,1,Maintenance,53,Under Review,D
+328,Industrial Solutions 328,8,Manufacturing,70,Active,B
+329,SteelPro 329,1,Raw Materials,46,Active,D
+330,Smart Logistics 330,9,Logistics,97,Active,A
+331,EuroParts 331,6,Electronics,53,Under Review,D
+332,EcoMaterials 332,7,Logistics,53,Under Review,D
+333,GreenTech Components 333,10,Manufacturing,84,Active,B
+334,Industrial Solutions 334,7,Electronics,61,Under Review,C
+335,EcoMaterials 335,10,Maintenance,45,Under Review,D
+336,Smart Logistics 336,3,Logistics,69,Active,C
+337,EuroParts 337,2,Manufacturing,87,Active,A
+338,Global Maintenance 338,9,Raw Materials,84,Under Review,B
+339,SteelPro 339,8,Electronics,86,Active,A
+340,Smart Logistics 340,10,Logistics,69,Active,C
+341,Energy Systems 341,7,Logistics,83,Active,B
+342,SteelPro 342,9,Maintenance,79,Active,B
+343,Nordic Supply 343,4,Maintenance,47,Active,D
+344,SteelPro 344,4,Raw Materials,94,Active,A
+345,Smart Logistics 345,1,Raw Materials,81,Active,B
+346,GreenTech Components 346,8,Manufacturing,88,Active,A
+347,EuroParts 347,3,Manufacturing,88,Under Review,A
+348,Smart Logistics 348,7,Raw Materials,95,Under Review,A
+349,GreenTech Components 349,2,Raw Materials,74,Under Review,B
+350,GreenTech Components 350,2,Electronics,82,Active,B
+351,SteelPro 351,7,Maintenance,78,Active,B
+352,EuroParts 352,6,Manufacturing,56,Under Review,C
+353,Smart Logistics 353,3,Maintenance,63,Active,C
+354,Smart Logistics 354,9,Maintenance,81,Under Review,B
+355,Energy Systems 355,10,Raw Materials,88,Active,A
+356,Industrial Solutions 356,6,Electronics,93,Active,A
+357,EcoMaterials 357,10,Logistics,61,Active,C
+358,Industrial Solutions 358,10,Electronics,54,Active,D
+359,Smart Logistics 359,6,Electronics,99,Active,A
+360,SteelPro 360,1,Maintenance,93,Active,A
+361,Global Maintenance 361,4,Electronics,91,Under Review,A
+362,Smart Logistics 362,10,Manufacturing,56,Under Review,C
+363,Nordic Supply 363,6,Maintenance,60,Active,C
+364,GreenTech Components 364,6,Manufacturing,68,Under Review,C
+365,Precision Tools 365,5,Logistics,63,Active,C
+366,Smart Logistics 366,1,Maintenance,52,Active,D
+367,Nordic Supply 367,8,Logistics,75,Under Review,B
+368,Nordic Supply 368,5,Maintenance,65,Active,C
+369,EcoMaterials 369,5,Raw Materials,61,Active,C
+370,EuroParts 370,7,Electronics,67,Active,C
+371,Smart Logistics 371,4,Raw Materials,81,Under Review,B
+372,EuroParts 372,6,Logistics,98,Active,A
+373,Global Maintenance 373,4,Electronics,60,Active,C
+374,SteelPro 374,3,Maintenance,50,Active,D
+375,Precision Tools 375,7,Electronics,52,Active,D
+376,SteelPro 376,8,Manufacturing,69,Active,C
+377,Nordic Supply 377,4,Electronics,62,Under Review,C
+378,GreenTech Components 378,2,Manufacturing,69,Active,C
+379,GreenTech Components 379,10,Electronics,56,Active,C
+380,EuroParts 380,3,Manufacturing,59,Active,C
+381,SteelPro 381,1,Logistics,70,Active,B
+382,Nordic Supply 382,8,Raw Materials,85,Under Review,A
+383,EcoMaterials 383,3,Maintenance,89,Active,A
+384,Energy Systems 384,10,Electronics,70,Active,B
+385,SteelPro 385,7,Raw Materials,91,Under Review,A
+386,EuroParts 386,10,Maintenance,76,Active,B
+387,Precision Tools 387,5,Maintenance,54,Active,D
+388,EuroParts 388,10,Manufacturing,60,Active,C
+389,Nordic Supply 389,5,Logistics,51,Under Review,D
+390,Smart Logistics 390,7,Logistics,61,Active,C
+391,EcoMaterials 391,9,Raw Materials,67,Active,C
+392,Nordic Supply 392,5,Logistics,70,Under Review,B
+393,EcoMaterials 393,1,Electronics,65,Active,C
+394,Industrial Solutions 394,10,Logistics,66,Active,C
+395,Industrial Solutions 395,10,Raw Materials,51,Under Review,D
+396,GreenTech Components 396,1,Logistics,58,Active,C
+397,EcoMaterials 397,2,Electronics,59,Under Review,C
+398,SteelPro 398,6,Manufacturing,97,Active,A
+399,Precision Tools 399,9,Raw Materials,51,Active,D
+400,Energy Systems 400,8,Manufacturing,53,Under Review,D
+401,EuroParts 401,5,Manufacturing,95,Under Review,A
+402,Industrial Solutions 402,1,Manufacturing,92,Active,A
+403,EuroParts 403,7,Maintenance,52,Active,D
+404,EuroParts 404,5,Maintenance,94,Under Review,A
+405,Precision Tools 405,6,Manufacturing,67,Under Review,C
+406,Nordic Supply 406,7,Raw Materials,73,Active,B
+407,EuroParts 407,3,Electronics,62,Under Review,C
+408,EcoMaterials 408,10,Electronics,75,Active,B
+409,Precision Tools 409,3,Logistics,74,Active,B
+410,Industrial Solutions 410,5,Raw Materials,96,Active,A
+411,Smart Logistics 411,6,Maintenance,83,Active,B
+412,EuroParts 412,9,Manufacturing,79,Active,B
+413,GreenTech Components 413,5,Logistics,62,Active,C
+414,Precision Tools 414,1,Electronics,86,Active,A
+415,Nordic Supply 415,4,Maintenance,83,Active,B
+416,Global Maintenance 416,5,Maintenance,61,Active,C
+417,Industrial Solutions 417,10,Manufacturing,58,Under Review,C
+418,Industrial Solutions 418,10,Electronics,75,Active,B
+419,Global Maintenance 419,5,Raw Materials,68,Active,C
+420,EcoMaterials 420,7,Maintenance,79,Active,B
+421,Smart Logistics 421,4,Manufacturing,88,Active,A
+422,Industrial Solutions 422,1,Raw Materials,89,Active,A
+423,Industrial Solutions 423,5,Electronics,78,Active,B
+424,Nordic Supply 424,7,Maintenance,47,Active,D
+425,Industrial Solutions 425,10,Raw Materials,81,Active,B
+426,Precision Tools 426,10,Raw Materials,87,Active,A
+427,EcoMaterials 427,6,Raw Materials,84,Active,B
+428,Smart Logistics 428,5,Maintenance,70,Active,B
+429,GreenTech Components 429,4,Maintenance,99,Active,A
+430,Smart Logistics 430,2,Logistics,67,Active,C
+431,EcoMaterials 431,4,Electronics,88,Active,A
+432,SteelPro 432,10,Manufacturing,83,Under Review,B
+433,Precision Tools 433,10,Raw Materials,59,Active,C
+434,SteelPro 434,3,Logistics,93,Under Review,A
+435,EcoMaterials 435,10,Manufacturing,48,Active,D
+436,Nordic Supply 436,1,Logistics,73,Active,B
+437,GreenTech Components 437,8,Maintenance,66,Active,C
+438,Smart Logistics 438,5,Raw Materials,69,Active,C
+439,EuroParts 439,4,Manufacturing,57,Active,C
+440,Energy Systems 440,8,Manufacturing,62,Active,C
+441,Smart Logistics 441,7,Manufacturing,77,Active,B
+442,Nordic Supply 442,2,Manufacturing,60,Active,C
+443,GreenTech Components 443,1,Manufacturing,89,Active,A
+444,Energy Systems 444,4,Logistics,86,Active,A
+445,Precision Tools 445,8,Raw Materials,88,Under Review,A
+446,EcoMaterials 446,2,Maintenance,46,Active,D
+447,EcoMaterials 447,3,Maintenance,99,Active,A
+448,Precision Tools 448,1,Maintenance,79,Under Review,B
+449,Energy Systems 449,1,Maintenance,86,Under Review,A
+450,SteelPro 450,3,Logistics,78,Under Review,B
+451,GreenTech Components 451,5,Electronics,74,Active,B
+452,Precision Tools 452,3,Raw Materials,99,Under Review,A
+453,Energy Systems 453,1,Manufacturing,57,Active,C
+454,Industrial Solutions 454,1,Electronics,57,Under Review,C
+455,Smart Logistics 455,8,Maintenance,62,Active,C
+456,Nordic Supply 456,10,Electronics,76,Active,B
+457,Precision Tools 457,2,Raw Materials,76,Active,B
+458,Nordic Supply 458,3,Manufacturing,79,Active,B
+459,SteelPro 459,2,Manufacturing,83,Active,B
+460,SteelPro 460,3,Raw Materials,90,Active,A
+461,Industrial Solutions 461,7,Raw Materials,96,Under Review,A
+462,EcoMaterials 462,1,Maintenance,73,Under Review,B
+463,Precision Tools 463,10,Manufacturing,93,Under Review,A
+464,GreenTech Components 464,8,Electronics,73,Active,B
+465,EcoMaterials 465,10,Logistics,97,Active,A
+466,Energy Systems 466,10,Logistics,88,Active,A
+467,EcoMaterials 467,10,Raw Materials,60,Active,C
+468,GreenTech Components 468,2,Maintenance,88,Active,A
+469,Smart Logistics 469,3,Logistics,91,Active,A
+470,SteelPro 470,9,Manufacturing,54,Active,D
+471,Smart Logistics 471,7,Raw Materials,74,Active,B
+472,Precision Tools 472,4,Electronics,69,Under Review,C
+473,EcoMaterials 473,10,Raw Materials,83,Active,B
+474,Precision Tools 474,5,Electronics,64,Active,C
+475,Smart Logistics 475,2,Raw Materials,49,Active,D
+476,SteelPro 476,8,Raw Materials,45,Active,D
+477,EuroParts 477,4,Raw Materials,74,Active,B
+478,Industrial Solutions 478,9,Electronics,93,Under Review,A
+479,Precision Tools 479,5,Electronics,47,Active,D
+480,Precision Tools 480,9,Raw Materials,89,Under Review,A
+481,EuroParts 481,4,Logistics,58,Active,C
+482,Energy Systems 482,10,Maintenance,74,Active,B
+483,Energy Systems 483,5,Maintenance,94,Active,A
+484,Smart Logistics 484,9,Maintenance,48,Active,D
+485,Precision Tools 485,8,Electronics,62,Active,C
+486,SteelPro 486,3,Electronics,81,Active,B
+487,Nordic Supply 487,1,Logistics,69,Active,C
+488,Smart Logistics 488,3,Maintenance,92,Active,A
+489,Smart Logistics 489,4,Maintenance,45,Under Review,D
+490,Industrial Solutions 490,2,Raw Materials,97,Active,A
+491,Precision Tools 491,1,Electronics,90,Under Review,A
+492,Energy Systems 492,7,Maintenance,59,Active,C
+493,Energy Systems 493,8,Logistics,53,Active,D
+494,EcoMaterials 494,7,Logistics,59,Active,C
+495,Global Maintenance 495,5,Maintenance,93,Active,A
+496,Global Maintenance 496,1,Electronics,68,Under Review,C
+497,Global Maintenance 497,7,Logistics,48,Active,D
+498,Industrial Solutions 498,7,Raw Materials,56,Under Review,C
+499,SteelPro 499,9,Logistics,81,Active,B
+500,Global Maintenance 500,3,Manufacturing,81,Active,B
