@@ -1,6 +1,6 @@
 # 📊 Procurement Executive Dashboard
 
-![Dashboard Overview](screenshots/dashboard_overview.png)
+![Dashboard Overview](screenshots/proc_dashboard.png)
 
 > **An end-to-end Business Intelligence project demonstrating procurement analytics using Python, SQL Server, SQL Views, DAX, and Power BI.**
 
