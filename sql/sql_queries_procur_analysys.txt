@@ -1,0 +1,163 @@
+-- =====================================================
+-- Procurement Executive Dashboard
+-- SQL Analysis Queries
+-- Author: Khayal Dadashzade
+-- =====================================================
+
+-- 1. Check row counts
+SELECT COUNT(*) AS TotalCountries FROM Countries;
+SELECT COUNT(*) AS TotalSuppliers FROM Suppliers;
+SELECT COUNT(*) AS TotalProducts FROM Products;
+SELECT COUNT(*) AS TotalPurchaseOrders FROM PurchaseOrders;
+SELECT COUNT(*) AS TotalDeliveries FROM Deliveries;
+SELECT COUNT(*) AS TotalSustainabilityRecords FROM Sustainability;
+
+-- 2. Preview tables
+SELECT TOP 10 * FROM Countries;
+SELECT TOP 10 * FROM Suppliers;
+SELECT TOP 10 * FROM Products;
+SELECT TOP 10 * FROM PurchaseOrders;
+SELECT TOP 10 * FROM Deliveries;
+SELECT TOP 10 * FROM Sustainability;
+
+-- 3. Check payment status distribution
+SELECT 
+    PaymentStatus,
+    COUNT(*) AS TotalOrders
+FROM PurchaseOrders
+GROUP BY PaymentStatus
+ORDER BY TotalOrders DESC;
+
+-- 4. Check delivery status distribution
+SELECT 
+    DeliveryStatus,
+    COUNT(*) AS TotalDeliveries
+FROM Deliveries
+GROUP BY DeliveryStatus
+ORDER BY TotalDeliveries DESC;
+
+-- 5. Total procurement spend
+SELECT 
+    SUM(TotalSpend) AS TotalProcurementSpend
+FROM vw_SupplierPerformance;
+
+-- 6. Total suppliers
+SELECT 
+    COUNT(DISTINCT SupplierID) AS TotalSuppliers
+FROM vw_SupplierPerformance;
+
+-- 7. Average ESG score
+SELECT 
+    AVG(ESGScore) AS AverageESGScore
+FROM vw_SupplierPerformance;
+
+-- 8. Average late delivery rate
+SELECT 
+    AVG(LateDeliveryPercent) AS AverageLateDeliveryRate
+FROM vw_DeliveryPerformance;
+
+-- 9. Procurement spend by country
+SELECT 
+    CountryName,
+    SUM(TotalSpend) AS TotalSpend
+FROM vw_CountryProcurement
+GROUP BY CountryName
+ORDER BY TotalSpend DESC;
+
+-- 10. Top 10 suppliers by procurement spend
+SELECT TOP 10
+    SupplierName,
+    SUM(TotalSpend) AS TotalSpend
+FROM vw_SupplierPerformance
+GROUP BY SupplierName
+ORDER BY TotalSpend DESC;
+
+-- 11. Top 10 suppliers by late delivery rate
+SELECT TOP 10
+    SupplierName,
+    LateDeliveryPercent,
+    LateDeliveries,
+    TotalDeliveries
+FROM vw_DeliveryPerformance
+ORDER BY LateDeliveryPercent DESC;
+
+-- 12. ESG risk distribution
+SELECT 
+    SustainabilityRisk,
+    COUNT(DISTINCT SupplierID) AS SupplierCount
+FROM vw_SustainabilityOverview
+GROUP BY SustainabilityRisk
+ORDER BY SupplierCount DESC;
+
+-- 13. Supplier performance matrix
+SELECT TOP 15
+    SupplierName,
+    TotalSpend,
+    ESGScore,
+    LateDeliveryPercent,
+    TotalDeliveries
+FROM vw_SupplierPerformance
+ORDER BY TotalSpend DESC;
+
+-- 14. CO2 emissions by industry
+SELECT 
+    Industry,
+    SUM(CO2EmissionTons) AS TotalCO2Emissions
+FROM vw_SustainabilityOverview
+GROUP BY Industry
+ORDER BY TotalCO2Emissions DESC;
+
+-- 15. CO2 emissions by country
+SELECT 
+    CountryName,
+    SUM(CO2EmissionTons) AS TotalCO2Emissions
+FROM vw_SustainabilityOverview
+GROUP BY CountryName
+ORDER BY TotalCO2Emissions DESC;
+
+-- 16. Average ESG score by region
+SELECT 
+    Region,
+    AVG(ESGScore) AS AverageESGScore
+FROM vw_SustainabilityOverview
+GROUP BY Region
+ORDER BY AverageESGScore DESC;
+
+-- 17. High-risk suppliers
+SELECT 
+    SupplierName,
+    CountryName,
+    Industry,
+    ESGScore,
+    CO2EmissionTons,
+    SustainabilityRisk
+FROM vw_SustainabilityOverview
+WHERE SustainabilityRisk = 'High'
+ORDER BY ESGScore ASC;
+
+-- 18. Suppliers with high spend and low ESG score
+SELECT 
+    SupplierName,
+    TotalSpend,
+    ESGScore,
+    LateDeliveryPercent,
+    TotalDeliveries
+FROM vw_SupplierPerformance
+WHERE ESGScore < 60
+ORDER BY TotalSpend DESC;
+
+-- 19. Suppliers with poor delivery performance
+SELECT 
+    SupplierName,
+    LateDeliveryPercent,
+    LateDeliveries,
+    TotalDeliveries
+FROM vw_DeliveryPerformance
+WHERE LateDeliveryPercent > 40
+ORDER BY LateDeliveryPercent DESC;
+
+-- 20. Final view checks
+SELECT TOP 10 * FROM vw_CountryProcurement;
+SELECT TOP 10 * FROM vw_SupplierPerformance;
+SELECT TOP 10 * FROM vw_DeliveryPerformance;
+SELECT TOP 10 * FROM vw_SustainabilityOverview;
